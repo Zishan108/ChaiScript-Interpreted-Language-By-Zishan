@@ -1,0 +1,22 @@
+cup a = orderChai_int("Enter Your Number: ")
+
+cup count = 0
+
+for_chai i = 1 to_chai a+1 then_chai
+
+    hot Math_mod_div(a, i) == 0 then_chai
+
+        cup count = count + 1
+
+    sip
+
+sip
+
+hot count == 2 then_chai
+
+    serveChai("The number " + a + " is a Prime Number")
+
+chilled
+    serveChai("The number " + a + " is Not a Prime Number")
+
+sip
